@@ -12,10 +12,44 @@
     <nav>
         <a href="index.html">Back</a>
     </nav>
-
+    <hr>
     <h1>Form of Assessment</h1>
-    <p>Please rate this car</p>
+    <hr>
+    <p>Please rate this cars from 1 to 5</p>
     </header>
+        <main>
+        <form action="https://formspree.io/xvorroyn" method="POST">
+            <label>
+                You Name:
+                <input type="text" name="you-name" placeholder="Name" required>
+            </label>
+            <br>
+            <label>
+                You email:
+                <input type="email" name="you-email" placeholder="Email" required>
+            </label>
+            <br>
+            <label>Rating</label>
+            <label>
+                <input type="radio" name="Rating" value="1">1
+            </label>
+            <label>
+                <input type="radio" name="Rating" value="2">2
+            </label>
+            <label>
+                <input type="radio" name="Rating" value="3">3
+            </label>
+            <label>
+                <input type="radio" name="Rating" value="4">4
+            </label>
+            <label>
+                <input type="radio" name="Rating" value="5">5
+            </label>                        
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>    
+    </main>  
     
 </body>
 </html>
